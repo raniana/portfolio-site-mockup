@@ -6,7 +6,8 @@ body {
 	padding-top: 30px;
 	padding-bottom: 40px;
 }
-.header, .row {
+.header, 
+.row {
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
@@ -42,11 +43,12 @@ body {
 	max-height: 80%;
 	max-width: 100%;
 }
-.sub-title {
-	width: 100%;
+h1 {
 	font-size: 2.5em;
 	color: #7d97ad;
 	padding-left: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .img {
 	width: 30%;
@@ -63,11 +65,15 @@ body {
 #img3 {
 	margin-right: 0;
 }
+h2 {
+    color: #2d3c49;
+}
 
 
 
 @media (max-width: 800px) {
-    .row, .header {
+    .row, 
+    .header {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
