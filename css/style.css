@@ -48,7 +48,7 @@ h1{
 }
 .img{
 	width: 30%;
-	height: 10%;
+	height: auto;
 	margin: auto;
 	text-align: center;
 	
